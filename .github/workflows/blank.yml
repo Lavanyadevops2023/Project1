@@ -35,13 +35,13 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           
-           - name: java Version
+           - name: java version
               run: java -version
            - name: maven Version
              run: mvn --version
           - name: python version
              run: python --version
           - name: docker version
-             run: docker -version
+             run: docker -v
              
            
